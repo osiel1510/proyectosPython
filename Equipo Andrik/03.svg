@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700">
+  <!-- Draw states -->
+  <circle cx="219" cy="63" r="20" fill="yellow" stroke="black"/>
+  <text x="219" y="63" text-anchor="middle" dy=".3em">q1</text>
+
+  <!-- Draw arrow -->
+  <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+
+  <!-- Draw transitions -->
+  <path d="M239 63 C336 63, 336 83, 239 71" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="290" y="45" text-anchor="middle" dy=".3em">b</text>
+</svg>

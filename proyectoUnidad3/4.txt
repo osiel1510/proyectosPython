@@ -1,0 +1,35 @@
+Start:
+	Move Right
+	Write 'x'
+	Move Right
+	Write 'x'
+	Move Right 
+	Write 'x'
+
+	Move Right
+	Write 'x'
+	Move Right
+	Write 'x'
+	Move Right 
+	Write 'x'
+
+	Move Right
+	Write 'x'
+	Move Right
+	Write 'x'
+	Move Right 
+	Write 'x'
+
+	Move Right
+	Write 'x'
+	Move Right
+	Write 'x'
+	Move Right 
+	Write 'x'
+	Move Right
+	Write 'x'
+	Move Right
+	Write 'x'
+	Move Right 
+	Write 'x'
+	Return True

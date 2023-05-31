@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <rect x="0" y="0" width="100%" height="100%" fill="white" />
+  <circle cx="84" cy="68" r="30" fill="gray" stroke="black" stroke-width="2" />
+  <circle cx="219" cy="63" r="30" fill="gray" stroke="black" stroke-width="2" />
+  <circle cx="419" cy="71" r="30" fill="gray" stroke="black" stroke-width="2" />
+  <circle cx="276" cy="181" r="30" fill="gray" stroke="black" stroke-width="2" />
+  <text x="75" y="73" font-size="30" fill="black">q0</text>
+  <text x="210" y="68" font-size="30" fill="black">q1</text>
+  <text x="410" y="76" font-size="30" fill="black">q2</text>
+  <text x="257" y="186" font-size="30" fill="black">q3</text>
+  <path d="M276 181 Q182 151 84 68" fill="none" stroke="black" stroke-width="1" />
+  <path d="M84 68 Q159 80 219 63" fill="none" stroke="black" stroke-width="2" />
+  <path d="M219 63 Q333 84 276 181" fill="none" stroke="black" stroke-width="2" />
+  <path d="M219 63 Q301 50 419 71" fill="none" stroke="black" stroke-width="2" />
+  <path d="M419 71 Q331 93 276 181" fill="none" stroke="black" stroke-width="2" />
+  <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="15" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+  <path d="M84 68 Q159 80 219 63" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M219 63 Q333 84 276 181" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M419 71 Q331 93 276 181" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M276 181 Q182 151 84 68" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M219 63 Q301 50 419 71" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+</svg>

@@ -1,0 +1,26 @@
+Start:
+	If 'a' Goto FoundA
+	If 'b' Goto FoundB
+	Move Right
+	Goto Start
+FoundA:
+	Write 'x'
+LoopA:
+	Move Right
+	If 'a' Goto LoopA
+	If 'x' Goto LoopA
+	Write 'x'
+	Goto GoHome
+GoHome:
+	Move Left
+	If Not Blank Goto GoHome
+	Move Right
+	Goto Start
+FoundB:
+	Write 'x'
+LoopB:
+	Move Right
+	If 'b' Goto LoopB
+	If 'x' Goto LoopB
+	Write 'x'
+	Goto GoHome
